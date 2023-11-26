@@ -5,3 +5,5 @@ import numpy as np
 st.title('Home')
 
 st.write('Welcome to the home page of the app. This is where you can find the data and the code used to create the app.')
+
+st.header('I LOVE CODING BECAUSE IT IS FUN!')
