@@ -10,4 +10,4 @@ st.header('I LOVE CODING BECAUSE IT IS FUN!')
 
 
 st.write('awesome')
-st.video('./https://media.tenor.com/E3FzOl_zIeYAAAAC/funee-monkee.gif')
+st.video('https://media.tenor.com/E3FzOl_zIeYAAAAC/funee-monkee.gif')
