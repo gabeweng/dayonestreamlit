@@ -6,8 +6,8 @@ st.title('Anderson')
 st.image('https://cdn.vox-cdn.com/thumbor/HFdhANVIrxsJzT5cv9U5n2cH5tk=/0x0:960x540/1200x800/filters:focal(404x194:556x346)/cdn.vox-cdn.com/uploads/chorus_image/image/70931916/p16_01_m.0.jpg')
 df = pd.read_csv("pokemon.csv")
 
-pokemon1 = st.text_input(Pokemon One, value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
-pokemon2 = st.text_input(Pokemon Two, value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
+pokemon1 = st.text_input("Pokemon One", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
+pokemon2 = st.text_input("Pokemon Two", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
 button1 = st.button(Show Comparison, key=None, help=None, on_click=None, args=None, kwargs=None, *, type="secondary", disabled=False, use_container_width=False)
 
 if st.button('Show Comparison'):
