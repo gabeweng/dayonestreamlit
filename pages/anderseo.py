@@ -22,6 +22,6 @@ if st.button('Show Comparison'):
                       f"{pokemon1_total} vs {pokemon2_total}", 
                       delta_str)
         else:
-            st.error("One or both Pokémon not found. Please check the names and try again.")
+            st.error("Do Better")
     else:
-        st.error("Please enter the names of both Pokémon.")
+        st.error("Do Better")
